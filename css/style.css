@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5px;
+}
+
+h3{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.container{
+    margin: 10px 25px;
+    width: auto;
+    display: inline-block;
+}
+
+.card{
+    padding: 32px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+input{
+    padding: 10px;
+    width: 100%;
+}
+
+.submit{
+    margin-top: 10px;
+}
+
+button{
+    margin: 25px;
+    padding: 10px;
+}

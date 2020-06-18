@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arkademy Tugas 10</title>
+</head>
+<body>
+    <h2>TUGAS 10 ARKADEMY CRUD</h2>
+    <div class="container card">
+        <h2>Input</h2>
+        <form action="php/form.php" method="POST">
+            <h3>Nama Produk</h3>
+            <input type="text" placeholder="masukkan Nama Produk" name="nama_produk">
+            <h3>Keterangan</h3>
+            <input type="text" placeholder="Keterangan" name="keterangan">
+            <h3>Harga</h3>
+            <input type="number" placeholder="masukkan Harga Barang" name="harga">
+            <h3>Jumlah</h3>
+            <input type="number" placeholder="Jumlah Barang" name="jumlahBarang">
+            <input class="submit" type="submit">
+        </form>
+        <form action="php/showTable.php" method="POST">
+            <input class="submit" type="submit" value="Lihat Database">
+        </form>
+    </div>   
+</body>
+</html>
